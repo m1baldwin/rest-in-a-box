@@ -5,8 +5,11 @@ Boilerplate rest-api in python as a dockerized service
 This is meant to be a boilerplate project of a rest-api developed with python. Here is a list of the main components of this project:  
 
 - Backend
-    - python3-flask  
-    
+    - flask  
+    - flask-restx
+    - sqlalchemy
+    - 
+
 - API Design 
     - openapi  
 
@@ -18,5 +21,7 @@ This is meant to be a boilerplate project of a rest-api developed with python. H
     - grafana for visualization (if time permits)
  
 - Data Model (TBD)
+    - sqlite (for initial prototyping of  data model interactions)
     - mongodb server (if nosql)
     - postgresql (if sql)
+

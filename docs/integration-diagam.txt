@@ -1,0 +1,17 @@
+                [ Flask App (app.py) ]
+                         │
+            ┌────────────┴─────────────┐
+            │                          │
+[ Flask Blueprint: 'api' ]     (Other Blueprints)
+            │
+       Registered at /api
+            │
+    [ flask_restx.Api object ]
+            │
+            ├────────── Namespace: 'items'
+            │                └── Routes:
+            │                    - GET /items/
+            │                    - POST /items/
+            │                    - GET /items/<id>
+            │
+            └── Swagger UI served at /api/docs
